@@ -1,0 +1,6 @@
+1. Install ngrok from https://ngrok.com/download
+2. Run your Streamlit app locally:
+   streamlit run ui/app.py
+3. In another terminal, run:
+   ngrok http 8501
+4. Copy the https://xxxx.ngrok-free.app link and share it

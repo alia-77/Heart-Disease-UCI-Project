@@ -1,0 +1,22 @@
+Best Model: Support Vector Machine (SVM)
+
+Best Parameters:
+- Kernel: linear
+- C: 0.1
+
+Classification Report:
+                        precision   recall   f1-score   support
+
+Class 0 (No Disease)       0.84      0.78      0.81        82
+Class 1 (Disease)          0.83      0.88      0.86       102
+
+Overall Accuracy: 0.84
+Macro Average:
+- Precision: 0.84
+- Recall:    0.83
+- F1-score:  0.83
+
+Weighted Average:
+- Precision: 0.84
+- Recall:    0.84
+- F1-score:  0.84
