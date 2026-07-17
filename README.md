@@ -27,16 +27,16 @@ Best model: **SVM (linear kernel, C=0.1)**, selected via hyperparameter tuning.
 data/         raw dataset (heart_disease.csv)
 notebooks/    the six pipeline stages above
 models/       final_model.pkl (trained SVM)
-ui/           app.py — Streamlit interface for live predictions
+ui/           app.py - Streamlit interface for live predictions
 deployment/   ngrok setup for exposing the local app
 results/      evaluation_metrics.txt
 
 
 ## Run it
-bash
+```bash
 pip install -r requirements.txt
 streamlit run ui/app.py
-
+```
 
 ## Stack
 Python, scikit-learn, pandas, Streamlit, matplotlib/seaborn
