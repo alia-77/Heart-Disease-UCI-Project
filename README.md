@@ -15,12 +15,12 @@ Best model: **SVM (linear kernel, C=0.1)**, selected via hyperparameter tuning.
 
 ## Pipeline
 
-1. **Preprocessing** (`01_data_preprocessing.ipynb`) — cleaning, encoding, scaling
-2. **PCA analysis** (`02_pca_analysis.ipynb`) — dimensionality reduction, variance analysis
+1. **Preprocessing** (`01_data_preprocessing.ipynb`) - cleaning, encoding, scaling
+2. **PCA analysis** (`02_pca_analysis.ipynb`) - dimensionality reduction, variance analysis
 3. **Feature selection** (`03_feature_selection.ipynb`)
-4. **Supervised learning** (`04_supervised_learning.ipynb`) — trains and compares classifiers
-5. **Unsupervised learning** (`05_unsupervised_learning.ipynb`) — clustering analysis
-6. **Hyperparameter tuning** (`06_hyperparameter_tuning.ipynb`) — grid search, final model selection
+4. **Supervised learning** (`04_supervised_learning.ipynb`) - trains and compares classifiers
+5. **Unsupervised learning** (`05_unsupervised_learning.ipynb`) - clustering analysis
+6. **Hyperparameter tuning** (`06_hyperparameter_tuning.ipynb`) - grid search, final model selection
 
 ## Project structure
 \`\`\`
