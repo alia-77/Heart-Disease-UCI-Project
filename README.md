@@ -23,14 +23,14 @@ Best model: **SVM (linear kernel, C=0.1)**, selected via hyperparameter tuning.
 6. **Hyperparameter tuning** (`06_hyperparameter_tuning.ipynb`) - grid search, final model selection
 
 ## Project structure
-
+```
 data/         raw dataset (heart_disease.csv)
 notebooks/    the six pipeline stages above
 models/       final_model.pkl (trained SVM)
 ui/           app.py - Streamlit interface for live predictions
 deployment/   ngrok setup for exposing the local app
 results/      evaluation_metrics.txt
-
+```
 
 ## Run it
 ```bash
